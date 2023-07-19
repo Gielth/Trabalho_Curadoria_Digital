@@ -1,0 +1,298 @@
+.content {
+    border: solid .2rem #000;
+    border-radius: .5rem;
+    background-color: #bbbbbb;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 1250px;
+    margin: auto;
+}
+
+hr {
+    opacity: 0;
+}
+
+li {
+    list-style: none;
+    font-family: 'Courgette', cursive;
+}
+
+.content h4 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 .25rem;
+    padding: 0;
+    padding-bottom: .45rem;
+    padding-top: .25rem;    
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+
+.content p {
+    padding: .5rem;
+    text-align: justify;
+    margin: 0;
+    padding: .5rem;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.content .contentTitle {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    flex: 100%;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.content .intro {
+    border: solid .1rem #000;
+    background-color: #800000;
+    border-radius: .5rem;
+    color: #bbbbbb;
+    margin: 0 .5rem;
+}
+
+.content .intro p {
+    text-align: center;
+    border: solid .005rem #000;
+    background-color: #bbbbbb;
+    border-radius: .5rem;
+    padding: .25rem;
+    margin: 0 .75rem;
+    color: #000;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.content .historic {
+    flex: 33%;
+    color: #bbbbbb;
+    background-color: #800000;
+    border: solid .25rem #000;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.content .historic p {
+    border: solid .005rem #000;
+    background-color: #bbbbbb;
+    border-radius: .5rem;
+    padding: .25rem;
+    margin: 0 .75rem;
+    color: #000;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.content .technical {
+    flex: 33%;
+    color: #bbbbbb;
+    background-color: #800000;
+    border: solid .25rem #000;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.content .technical p {
+    border: solid .005rem #000;
+    background-color: #bbbbbb;
+    border-radius: .5rem;
+    padding: .25rem;
+    margin: 0 .75rem;
+    color: #000;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.content .characters {
+    flex: 33%;
+    color: #bbbbbb;
+    background-color: #800000;
+    border: solid .25rem #000;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.content .characters p {
+    border: solid .005rem #000;
+    background-color: #bbbbbb;
+    border-radius: .5rem;
+    padding: .25rem;
+    margin: 0 .75rem;
+    color: #000;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.content .world {
+    flex: 33%;
+    color: #bbbbbb;
+    background-color: #800000;
+    border: solid .25rem #000;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.content .world p {
+    border: solid .005rem #000;
+    background-color: #bbbbbb;
+    border-radius: .5rem;
+    padding: .25rem;
+    margin: 0 .75rem;
+    color: #000;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.content .world ul {
+    border: solid .005rem #000;
+    background-color: #bbbbbb;
+    border-radius: .75rem;
+    padding: .25rem;
+    margin: 1rem .75rem 0 .75rem;
+    color: #000;
+}
+
+.content .world ul li {
+    border: solid .05rem #000;
+    border-radius: 1rem;
+    background-color: #800000;
+    color: #bbbbbb;
+    margin: .35rem;
+    padding: .5rem;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.content .world ul li span {
+    display: inline-block;
+    border: solid .05rem #000;
+    border-radius: 1rem;
+    background-color: #bbbbbb;
+    color: #000;
+    margin: .35rem;
+    padding: .5rem;
+    font-size: .75rem;
+    text-align: center;
+    padding: .25rem;
+    font-weight: 700;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.content .battles {
+    flex: 33%;
+    color: #bbbbbb;
+    background-color: #800000;
+    border: solid .25rem #000;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.content .battles p {
+    border: solid .005rem #000;
+    background-color: #bbbbbb;
+    border-radius: .5rem;
+    padding: .25rem;
+    margin: 0 .75rem;
+    color: #000;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.content .battles ul {
+    border: solid .005rem #000;
+    background-color: #bbbbbb;
+    border-radius: .75rem;
+    padding: .25rem;
+    margin: .75rem;
+    color: #000;
+}
+
+.content .battles ul li {
+    border: solid .05rem #000;
+    border-radius: .5rem;
+    background-color: #800000;
+    color: #bbbbbb;
+    margin: .35rem;
+    padding: .5rem;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.content .battles ul li span {
+    display: inline-block;
+    border: solid .05rem #000;
+    border-radius: 1rem;
+    background-color: #bbbbbb;
+    color: #000;
+    margin: .35rem;
+    padding: .5rem;
+    text-align: center;
+    padding: .25rem;
+    font-size: .825rem;
+    font-weight: 700;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+@media screen and (min-width: 650px) {
+    .content .battles ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .content .world ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .content .part2 {
+        display: flex;
+        flex-direction: row;
+        padding: .25rem;
+    }
+
+    .content .part3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content .part2 p {
+        height: 400px;
+        overflow: scroll;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    .content .part2 p::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .content .part2 p::-webkit-scrollbar-thumb {
+        background: #800000;
+        border-radius: 1rem;
+    }
+
+
+    .content .battles ul li {
+        height: 123px;
+        flex-wrap: wrap;
+        overflow: scroll;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .content .battles ul li::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .content .battles ul li::-webkit-scrollbar-thumb {
+        background: #bbbbbb;
+        border-radius: 1rem;
+    }
+
+
+
+}

@@ -1,0 +1,132 @@
+.series {
+    background-color: #800000;
+    color: #bbbbbb;
+    text-align: center;
+    border: solid .25rem #000;
+    border-radius: 1rem;
+}
+
+.series .title {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.series .details {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.series .details li {
+    display: inline-block;
+    background-color: #bbbbbb;
+    color: #000;
+    border: solid .25rem #000;
+    padding: .25rem;
+    margin: .15rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    font-family: 'Courgette', cursive;
+}
+
+.series .about h3 {
+    font-size: 2rem;
+    padding: 0 .1rem;
+    margin: 0 .1rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.series .about {
+    background-color: #bbbbbb;
+    color: #000;
+    border: solid .1rem #000;
+    border-radius: .5rem;
+    margin: .45rem;
+    padding: .35rem;
+}
+
+.series .about p {
+    border: solid .25rem #800000;
+    margin: 0;
+    padding: .15rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.series .gameDetails .games {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.series .gameDetails .games li {
+    list-style-position: inside;
+    background-color: #bbbbbb;
+    color: #000;
+    border: solid .25rem #000;
+    padding: .35rem;
+    margin: .15rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    font-family: 'Courgette', cursive;
+}
+
+.series .gameDetails .consoles {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.series .gameDetails .consoles li {
+    display: inline-block;
+    background-color: #bbbbbb;
+    color: #000;
+    border: solid .2rem #000;
+    padding: .25rem .5rem;
+    margin: .15rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    font-family: 'Courgette', cursive;
+}
+
+.series .gameFooter {
+    font-size: .705rem;
+}
+
+.series .gameFooter a{
+    text-decoration: none;
+    color: #00c000;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 750px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .series {
+        flex: 45%;
+        margin: .25rem;
+    }
+}
